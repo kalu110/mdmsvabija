@@ -1,0 +1,354 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F3F3F3;
+}
+header {
+	width:100%;
+	height: 50vh;
+	background-image:url('images/header2.jpg');
+	background-size: 100% 100%;
+	background-position: cover;
+	margin-bottom: 10%;
+}
+#headeronama {
+	background-image: url('images/header8.jpg');
+	filter:blur(0.5px);
+}
+#headercontact {
+	background-image: url('images/headercontact.jpg');
+	filter:blur(0.5px);
+}
+
+#menuimg {
+	width:40px;
+	height: 40px;
+	position: absolute;
+	z-index: 100;
+	margin-left: 96%;
+	cursor:pointer;
+	
+}
+#closeimg {
+	width:40px;
+	height: 40px;
+	position: absolute;
+	z-index: 100;
+	margin-left: 96%;
+	display:none;
+	cursor:pointer;
+}
+#menu {
+	display:none;
+
+}
+nav {
+	position: absolute;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	width:40%;
+	height:40px;
+	margin-left: 30%;
+	background-color: #3C3C3C;
+	opacity: 0.8;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+nav a {
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color:white;
+	list-style-type: none;
+	font-weight: bolder;
+}
+.hiddentext{
+	position: absolute;
+	width:40%;
+	margin-left: 5%;
+	margin-top: 10%;
+	color:black;
+}
+.hiddentext h1{
+	font-size: 4em;
+	width:100%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+@keyframes animate {
+   0%{
+   	opacity:0;
+   	filter:blur(10px);
+   }
+   100% {
+   	opacity:1;
+   	filter:blur(0);
+   }
+}
+.hiddentext span {
+	display: inline-block
+	color:black;
+	opacity: 0;
+	animation: animate 1.5s linear forwards;
+}
+.text{
+	margin-left: 40%;
+	width: 20%;
+	padding-top:10%;
+	color:black;
+}
+#logo {
+	width:70%;
+	height:90%;
+	background-color: #F3F3F3;
+}
+#logo img{
+	width:100%;
+	height: 100%;
+	border-radius: 100px;
+	background-color: #F3F3F3;
+	border-radius: 100px;
+}
+#about {
+	display:grid;
+	grid-template-columns: 30% 70%;
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	text-align: justify;
+
+}
+#contact {
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	width:75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	text-align: center;
+}
+#contact img{
+	width: 25%;
+	height: 20%;
+	border-radius: 100px;
+}
+#map{
+	margin-bottom: 10%;
+}
+#kakodonas{
+	width:18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	border-bottom:1px solid black;
+	text-align: center;
+	font-weight: normal;
+	font-size: 2.5vmax;
+}
+#indexabout{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+
+
+}
+#contactindex {
+	display: grid;
+	grid-template-rows: repeat(4,1fr);
+	margin-left: auto;
+	width:70%;
+	height: 80%;
+	
+}
+#contactindex img{
+	width:90%;
+	height: 80%;
+	border-radius: 100px;
+}
+#contactindex p{
+	padding-top:7%;
+	padding-left: 5%;
+}
+#indexlogo{
+	width:70%;
+	height: 40%;
+	margin-right: auto;
+
+	
+}
+#indexlogo img{
+	width:100%;
+	height: 100%;
+	border-radius: 100px;
+	
+}
+.smallphoto{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	text-align: left;
+}
+#indexgallery {
+	width:60%;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	height:400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+}
+#indexgallery div{
+	box-shadow: 0px 0px 8px 0.3px black;
+}
+#indexgallery div:hover{
+	box-shadow: inset 0px 0px 150px 10px black;
+	color:white;
+}
+#indexgallery p:hover{
+	color:white;
+}
+
+.textindiv {
+	width:50%;
+	height: 10%;	
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-top: 100%;
+	background-color: grey;
+	cursor: pointer;
+}
+.textindiv p{
+	text-align: center;
+	line-height: 40px;
+	color:black;	
+}
+.textindiv a{
+	text-decoration: none;
+}
+.textindiv:hover{
+	color:white;
+}
+#firstphoto{
+	background-image:url(images/electrical.jpg);
+	background-size: 100% 108%;
+}
+#secondphoto{
+	background-image:url(images/plumber.jpg);
+	background-size:100% 100%; 
+}
+#thirdphoto{
+	background-image:url(images/interior.jpg);
+	background-size: 100% 108%; 
+}
+#galleryphoto{
+	width:80%;
+	height:100%;
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+}
+#galleryphoto div{
+	
+	height: 150px;
+	margin-top:10%;
+	margin-bottom:10%; 
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+#galleryphoto div:hover{
+	filter:sepia(100%);
+	transform: scale(1.2);
+}
+#galleryphoto img{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+/***FORMA***/
+#button{
+	background-color: grey;
+	color:white;
+	font-weight: bold;
+	font-size: 1.3vmax;
+	width:15%;
+	height:8%;
+	border-radius: 9px;
+	cursor:pointer;
+	box-shadow: inset 0px 0px 6px 1px  grey;
+	border:1px solid grey;
+
+}
+.contactform{
+	width:60vw;
+	height: 80vh;
+	margin-left:20vw;
+	margin-top:7%;
+	color:black;
+	margin-bottom:10%;
+}
+.contactform h2{
+	text-align: center;
+	font-size: 2vmax;
+	color:black;
+	font-weight: normal;
+	border-bottom:1px solid black;
+	margin-bottom: 5%;
+	width:30%;
+
+}
+
+.contactform textarea{
+	height: 30%;
+	width:95.222%;
+	font-size: 1.2vmax;
+	max-width:95.222%;
+	max-height: 40%;
+	min-width: 95.222%;
+	min-height: 20%;
+	border:1px solid grey;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius:7px;
+	color:black;
+	padding-left:8px;
+	padding-top:5px;
+}
+.praznopolje{
+	width:90%;
+	height:50%;
+	font-size: 1.2vmax;
+	border:none;
+	border: 1px solid grey;
+	background-color:rgba(255, 255, 255, 0.3);
+	color:black;
+	border-radius:7px;
+	padding-left:8px;
+}
+::placeholder {
+	color:grey;
+	padding-left:2%;
+	padding-top:1%;
+}
+
+#forma{
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	width:100%;
+	height: 30%;	
+	color:black;
+}
