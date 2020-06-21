@@ -280,6 +280,42 @@ nav a {
 	width:100%;
 	height:100%;
 }
+#galeryh1 {
+	margin-left: 12%;
+	display:grid;
+	grid-template-columns: 39.25% 8% 39.25%;
+	text-align: center;
+}
+#line {
+	border-bottom:2px solid grey;
+	margin-bottom: 3.2%;
+}
+#galeryvideo {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 5%;
+}
+#galeryvideo div{
+	width:85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10%;
+	margin-bottom:10%;
+	height:250px;
+	border:1px solid grey;
+}
+#galeryvideo video{
+	height: 250px;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 
 /********POPUP************/
 #popup {
