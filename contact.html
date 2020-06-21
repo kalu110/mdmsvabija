@@ -6,27 +6,27 @@
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
+	<div id="popup"><img id="closebtn" onclick="closepopup()" src="images/close.png"><div id="popuptext">Hast du eine Frage?<br>
+	Klicken Sie auf die Schaltfläche unten!</div><div id="buttonpopup"><a href="contact.html#forma">Klick mich</a></div></div>
 	<header id = "headercontact">
 		<div class="hiddentext"><h1>
-			<span>C</span>
+			<span>K</span>
 			<span>O</span>
 			<span>N</span>
 			<span>T</span>
 			<span>A</span>
-			<span>C</span>
+			<span>K</span>
 			<span>T</span>
 			</h1></div>
 		<img alt="closeicon" id="closeimg" onclick="closenav()" src="images/close.png">
 		<img alt="menuicon" id="menuimg" onclick="opennav()" src="images/menu.png">
 		<div id="menu">
 			<nav>
-				<a href="index.html"><div>Pocetna</div></a>
-				<a href="galery.html"><div>Galerija</div></a>
-				<a href="contact.html"><div>Kontakt</div></a>
+				<a href="index.html"><div>ZUHAUSE</div></a>
+				<a href="galery.html"><div>GALERIE</div></a>
+				<a href="contact.html"><div>KONTAKT</div></a>
 			</nav>
 		</div>
-
-		<div class="text"><h1>O nama i nasem poslovanju</h1></div>
 	
 	</header>
 	<div id="about">
@@ -35,17 +35,17 @@
 	</div>
 
 	<div id="contact">
-		<div><img src="images/phone.png"><p>asdasd</p></div>
+		<div><img src="images/phone.png"><p>+49 1575 4198614</p></div>
 		<div><img src="images/homephone.png"><p>asdasd</p></div>
-		<div><img src="images/gmail.png"><p>asdasd</p></div>
-		<div><img src="images/location.png"><p>asdasd</p></div>
+		<div><a href="https://mail.google.com/mail/u/0/" target="blank" ><img src="images/gmail.png"><p>mdm@gmail.com</a></p></div>
+		<div><img src="images/location.png"><p>Ringstraße 4 Wenzenbach Regensburg</p></div>
 	</div>
-	<div id ="kakodonas"><p>Kako do nas ?</p></div>
+	<div id ="kakodonas"><p>Wie erreichen Sie uns?</p></div>
 	<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.4539647182874!2d12.198009115140687!3d49.0780130931725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fe9a5a5c1441d%3A0xfd53a16467de8ef4!2zUmluZ3N0cmHDn2UgNCwgOTMxNzMgV2VuemVuYmFjaCwg0J3QtdC80LDRh9C60LA!5e0!3m2!1ssr!2srs!4v1592476986376!5m2!1ssr!2srs" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 	<form action="contactform.php" method="post"   class="contactform">
       
-      <h2>Postavite nam pitanje</h2>
+      <h2>Stellen Sie uns eine Frage</h2>
       <div id="forma">
       <input type="text" name="name" id="ime" class="praznopolje" placeholder="Unesite Vase ime" required>
       <input type="text" name="lastname" id="prezime" class="praznopolje" placeholder="Unesite Vase prezime" required>
@@ -59,12 +59,25 @@
 
 
     <footer>
-    	
+		<div class="footerlogo">
+			<img src="images/logo2.png">
+			<p>+49 1575 4198614</p>
+			<p><a href="https://mail.google.com/mail/u/0/" target="blank" >mdm@gmail.com</a></p>
+			<p>Ringstraße 4 Wenzenbach Regensburg</p>
+		</div>
+		<div class="footerdown">
+			<div id="footernav">
+				<div><a href="index.html">ZUHAUSE</a></div>
+				<div><a href="galery.html">GALERIE</a></div>
+				<div><a href="contact.html">KONTAKT</a></div>
+			</div>
+			<div id="rightsreserved">
+				<p>&copy Copyright alle Rechte vorbehalten.</p>
+			</div>
+		</div>
 
 
-
-
-    </footer>
+	</footer>
 
 
 </body>
