@@ -36,6 +36,7 @@ header {
 .navigation nav  a{
 	text-decoration: none;
 	color:white;
+	letter-spacing: 1px;
 	
 }
 .navigation nav a:hover{
