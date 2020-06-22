@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="lightbox.min.css">
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 	<link rel="stylesheet" media="screen and (max-width: 640px)" href="mobilni.css">
 <script src="contactform.php"></script>
 	<title>Novakovici</title>
@@ -16,42 +18,43 @@
 <body>
 	<div id="popup"><img id="closebtn" onclick="closepopup()" src="images/close.png"><div id="popuptext">Hast du eine Frage?<br>
 	Klicken Sie auf die Schaltfläche unten!</div><div id="buttonpopup"><a href="contact.html#form">Klick mich</a></div></div>
-	<header id = "headeronama">
-		<div class="hiddentext"><h1>
-			<span>G</span>
-			<span>A</span>
-			<span>L</span>
-			<span>E</span>
-			<span>R</span>
-			<span>I</span>
-			<span>E</span>
-			</h1></div>
-		<img alt="closeicon" id="closeimg" onclick="closenav()" src="images/close.png">
-		<img alt="menuicon" id="menuimg" onclick="opennav()" src="images/menu.png">
-		<div id="menu">
-			<nav>
-				<a href="index.html"><div>ZUHAUSE</div></a>
-				<a href="galery.html"><div>GALERIE</div></a>
-				<a href="contact.html"><div>KONTAKT</div></a>
-			</nav>
+	<header>
+		<div class="navigation">
+			<div id="contactnav">
+			<div><a href="https://mail.google.com/mail/u/0/" target="blank">info@mdm-dienstleistungen.de</a></div>
+			<div id="rightborder" class="navsmallphoto"><img src="images/navphoto.png"></div>
+			<div class="navsmallphoto"><img src="images/navphoto2.png"></div>
+			<div><p>0151 / 1233 6292</p></div>
 		</div>
+  		<nav>
+      	<a href="index.html">ZUHAUSE</a>
+      	<a id="active" href="galery.html">GALERIE</a>
+      	<a href="contact.html">KONTAKT</a>
+  		</nav>
+     	</div>
+
+     <div id = "logogalery"><img src="images/logo2.png">
+     	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap </p>
+     </div>
+
+
 	</header>
 	<div id="galeryh1"><div id="line"></div><h1>Fotos</h1><div id="line"></div></div>
 	<div id="galleryphoto">
-		<div><img src="gallery/photo1.jpeg"></div>
-		<div><img src="gallery/photo2.jpeg"></div>
-		<div><img src="gallery/photo3.jpeg"></div>
-		<div><img src="gallery/photo4.jpeg"></div>
-		<div><img src="gallery/photo5.jpeg"></div>
-		<div><img src="gallery/photo6.jpeg"></div>
-		<div><img src="gallery/photo7.jpeg"></div>
-		<div><img src="gallery/photo8.jpeg"></div>
-		<div><img src="gallery/photo9.jpeg"></div>
-		<div><img src="gallery/photo10.jpeg"></div>
-		<div><img src="gallery/photo11.jpeg"></div>
-		<div><img src="gallery/photo12.jpeg"></div>
-		<div><img src="gallery/photo13.jpeg"></div>
-		<div><img src="gallery/photo14.jpeg"></div>
+		<a href="gallery/photo1.jpeg" data-lightbox="mygallery"><img src="gallery/photo1.jpeg"></a>
+		<a href="gallery/photo2.jpeg" data-lightbox="mygallery"><img src="gallery/photo2.jpeg"></a>
+		<a href="gallery/photo3.jpeg" data-lightbox="mygallery"><img src="gallery/photo3.jpeg"></a>
+		<a href="gallery/photo4.jpeg" data-lightbox="mygallery"><img src="gallery/photo4.jpeg"></a>
+		<a href="gallery/photo5.jpeg" data-lightbox="mygallery"><img src="gallery/photo5.jpeg"></a>
+		<a href="gallery/photo6.jpeg" data-lightbox="mygallery"><img src="gallery/photo6.jpeg"></a>
+		<a href="gallery/photo7.jpeg" data-lightbox="mygallery"><img src="gallery/photo7.jpeg"></a>
+		<a href="gallery/photo8.jpeg" data-lightbox="mygallery"><img src="gallery/photo8.jpeg"></a>
+		<a href="gallery/photo9.jpeg" data-lightbox="mygallery"><img src="gallery/photo9.jpeg"></a>
+		<a href="gallery/photo10.jpeg" data-lightbox="mygallery"><img src="gallery/photo10.jpeg"></a>
+		<a href="gallery/photo11.jpeg" data-lightbox="mygallery"><img src="gallery/photo11.jpeg"></a>
+		<a href="gallery/photo12.jpeg" data-lightbox="mygallery"><img src="gallery/photo12.jpeg"></a>
+		<a href="gallery/photo13.jpeg" data-lightbox="mygallery"><img src="gallery/photo13.jpeg"></a>
+		<a href="gallery/photo14.jpeg" data-lightbox="mygallery"><img src="gallery/photo14.jpeg"></a>
 	</div>
 	<div id="galeryh1"><div id="line"></div><h1>Video</h1><div id="line"></div></div>
 	<div id="galeryvideo">
@@ -74,6 +77,7 @@
 	<footer>
 		<div class="footerlogo">
 			<img src="images/logo2.png">
+			
 			<p>0151 / 1233 6292</p>
 			<p><a href="https://mail.google.com/mail/u/0/" target="blank" >mdm@gmail.com</a></p>
 			<p>Ringstraße 4 <br> 93173 Wenzenbach</p>
