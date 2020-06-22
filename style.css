@@ -149,8 +149,18 @@ header {
 }
 #menustaradimo {
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(4,1fr);
 	width:100%;
+}
+#menustaradimo div{
+	text-align: center;
+	font-size: 1.8vmax;
+	width:90%;
+	height:10vh;
+	background-color: #2A6BA4;
+	line-height: 10vh;
+	border-radius:10px;
+	color:white;
 }
 
 
@@ -256,16 +266,24 @@ header {
 }
 #about {
 	display:grid;
-	grid-template-columns: 50% 50%;
-	width:60%;
+	grid-template-rows: 70% 30%;
+	width:80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10%;
 	text-align: justify;
 }
+#logocontact{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+}
 #logocontact img{
-	width: 90%;
+	width: 100%;
 	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #contact {
 	display:grid;
