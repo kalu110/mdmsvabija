@@ -712,7 +712,7 @@ footer {
 }
 #footernav{
 	display: grid;
-	grid-template-columns: 14% 20% 53% 12%;
+	grid-template-columns: 14% 20% 51% 12%;
 	padding-top: 5%;
 	font-family: sans-serif;
 	margin-left: 10%;
