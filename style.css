@@ -14,7 +14,8 @@ header {
 	margin-bottom: 30%;
 }
 #headerservice {
-	height:20vh;
+	margin-bottom: 10%;
+	height: 10vh;
 }
 #headergalery{
 	margin-bottom: 10%;
@@ -498,10 +499,10 @@ header {
 	margin-right: auto;
 }
 #servicephoto{
-	width:80%;
+	width:60%;
 	height:100%;
 	display:grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(3,1fr);
 	margin-left:auto;
 	margin-right: auto;
 	margin-bottom: 10%;
@@ -509,7 +510,7 @@ header {
 #servicephoto div{
 	height: 150px;
 	margin-top:10%;
-	margin-bottom:30%; 
+	margin-bottom:10%; 
 	width:80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -531,6 +532,19 @@ header {
 	background-color: #2A6BA4;
 	border-radius: 6px;
 	color:white;
+}
+#serviceabout{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width:80%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+#serviceabout div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
 
