@@ -205,13 +205,13 @@ header {
 #logogalery {
 	text-align: center;
 	width:80%;
-	height: 30vh;
+	height: 100%;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
 }
 #logogalery img{
-	width:50%;
+	width:65%;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -544,6 +544,7 @@ header {
 }
 #serviceabout img{
 	width: 100%;
+	margin-top: 6%;
 }
 #serviceabout div{
 	margin-left: auto;
