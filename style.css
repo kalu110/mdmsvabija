@@ -535,16 +535,28 @@ header {
 }
 #serviceabout{
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: 65% 35%;
 	width:80%;
 	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 5%;
+}
+#serviceabout img{
+	width: 100%;
 }
 #serviceabout div{
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 90%;
+}
+#serviceabout p{
+	margin-top:3%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+#podebljati {
+	font-weight: bolder;
 }
 
 
