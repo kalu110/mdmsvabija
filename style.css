@@ -10,8 +10,18 @@ header {
 	height: 60vh;
 	margin-bottom: 10%;
 }
+#indexheader{
+	margin-bottom: 30%;
+}
 #headerservice {
-	height:10vh;
+	height:20vh;
+}
+#headergalery{
+	margin-bottom: 10%;
+}
+#contactheader{
+	height:0vh;
+	background-color: red;
 }
 #active{
  color:black;
@@ -54,8 +64,69 @@ header {
 	margin-bottom: 10%;
 }
 #photomoco img{
+	opacity: 0;
+	animation:  indexanimatephoto 2s ease forwards;
+}
+@keyframes indexanimatephoto {
+	0%{
+		opacity:0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#photomoco img{
 	width:100%;
 	height:100%;
+	margin-top: -5%;
+}
+#textindex {
+	text-align: center;
+	font-size: 2vmax;
+	margin-top: -5%;
+	letter-spacing: 1.5px;
+}
+#textindex h1 {
+	animation: indexanimate 2s ease  forwards;
+	opacity:0;
+	animation-delay: 1s;
+}
+#textindex h2{
+	margin-left: auto;
+	margin-right: auto;
+	animation: indexanimate2 2s ease  forwards;
+	opacity:0;
+	animation-delay: 2s;
+}
+#textindex h3 {
+	animation: indexanimate3 2s ease  forwards;
+	opacity:0;
+	animation-delay: 3s;
+	margin-top: 5%;
+}
+@keyframes indexanimate {
+	0%{
+		opacity:0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes indexanimate2 {
+	0%{
+		opacity:0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes indexanimate3 {
+	0%{
+		opacity:0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 .navsmallphoto {
 	width:80%;
@@ -90,9 +161,7 @@ header {
 	text-decoration: none;
 	color:black;
 }
-#contactheader{
-	height:5vh;
-}
+
 
 /***********SLIDER*****************/
 .wez-slider2{
@@ -134,7 +203,7 @@ header {
 #logogalery {
 	text-align: center;
 	width:80%;
-	height: 50%;
+	height: 30vh;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
@@ -184,23 +253,6 @@ header {
 
 
 
-#headeronama {
-	background-image: url('images/header8.jpg');
-	filter:blur(0.5px);
-}
-#headercontact {
-	background-image: url('images/headercontact.jpg');
-	filter:blur(0.5px);
-}
-#headerlogo{
-	width:30%;
-}
-#headerlogo img{
-	width:80%;
-	height: 70%;
-	margin-top: 40%;
-	margin-left: 20%;
-}
 
 #menuimg {
 	width:40px;
