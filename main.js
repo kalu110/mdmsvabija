@@ -1,14 +1,14 @@
 function opennav() { 
-document.getElementById('menu').style.display = "block"
-document.getElementById('closeimg').style.display = "block"
-document.getElementById('menuimg').style.display = "none"
+document.getElementById('menumobile').style.display = "block"
+document.getElementById('close').style.display = "block"
+document.getElementById('open').style.display = "none"
 }
 
 
 function closenav() { 
-document.getElementById('menu').style.display = "none"
-document.getElementById('menuimg').style.display = "block"
-document.getElementById('closeimg').style.display = "none"
+document.getElementById('menumobile').style.display = "none"
+document.getElementById('open').style.display = "block"
+document.getElementById('close').style.display = "none"
 }
 
 function closepopup() {
