@@ -146,12 +146,15 @@ header {
 	margin-left: 5%;
 	line-height: 8vh;
 	font-size: 1vmax;
+	-moz-height: 8vh;
 	height: 8vh;
 	text-align: center;
 	position: absolute;
 	width:35%;
 	display: grid;
 	grid-template-columns: 42% 8% 8% 42%;
+	-moz-grid-template-columns: 42% 8% 8% 42%;
+	-webkit-grid-template-columns: 42% 8% 8% 42%;
 }
 #contactnav p{
 	text-align: left;
