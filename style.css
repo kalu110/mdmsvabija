@@ -153,8 +153,6 @@ header {
 	width:35%;
 	display: grid;
 	grid-template-columns: 42% 8% 8% 42%;
-	-moz-grid-template-columns: 42% 8% 8% 42%;
-	-webkit-grid-template-columns: 42% 8% 8% 42%;
 }
 #contactnav p{
 	text-align: left;
